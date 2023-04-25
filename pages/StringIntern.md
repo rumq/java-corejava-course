@@ -3,7 +3,7 @@
 # String Interning
 
 See also
-
+- [CoreJava String Interning Video](https://drive.google.com/file/d/1l3YezqcJGKBE-UhrDD2Cz8YmA-78KRc_/view?usp=share_link)
 - [Strings](Strings.md)
 
 
@@ -54,11 +54,15 @@ System.out.println((name1 + name2).equals(name1 + name2)); // true
 System.out.println(name1 == name4); // true
 
 // new String() will create a new object
+
+System.out.println(name1 == name5); // false
 System.out.println(name3 == name5); // false
 // If not interned, new String() will create a new object
 System.out.println(name4 == name5); // false
 // Concatenating objects will create a new object each time
 System.out.println((name1 + name2) == (name1 + name2)); // false
+System.out.println((name1 + name2)); // DeepikaDeepika
+
 
 ```
 >[Pages Home](Home.md)

@@ -3,7 +3,7 @@
 # Object Equality in Java
 
 ## See also
-
+- [CoreJava Object Equality Video](https://drive.google.com/file/d/1yKr6NeY0wdWYgJ29zv4DY41UNta3e9Is/view?usp=share_link) 
 - [String Intern](StringIntern.md)
 
 There are four things you need to know to understand object equality in Java:
